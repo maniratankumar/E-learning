@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header and landing page -->
+    <div class="container">
+
+
+        <div class="popup hide">
+
+
+            <form action="" class="form">
+                <span><i class="ri-close-circle-line" id="closebtn"></i></span>
+                <h2>Login</h2>
+                <br>
+                <div class="form-input">
+                    <i class="ri-mail-line"></i><input type="email" title="email" placeholder="Enter your email">
+                </div>
+                <br>
+                <div class="form-input">
+                    <i class="ri-lock-2-line"></i><input type="password" title="password" placeholder="Enter your password"><i class="ri-eye-off-line"></i>
+                </div>
+
+                <br>
+                <div class="check-box">
+                    <div>
+                        <input type="checkbox" name="check" id="" title="check">
+                        <label for="">Remember Me</label>
+                    </div>
+                    <div>
+                        <a href="#">Forgot Password ?</a>
+                    </div>
+                </div>
+                <br>
+
+
+                <button type="button" title="LoginNow" class="LoginNow">Login Now</button>
+
+                <h4>Don't have an account ? <a href="#" class="signIn">Sign in</a></h4>
+            </form>
+
+
+
+        </div>
+
+
+        <header class="header">
+
+            <div class="logo-part">
+                <div class="hide toggle"><i class="fa-solid fa-bars" id="menuToggle"></i></div>
+                <div class="logo"><i class="fa-solid fa-award"></i><span>Tech Learn</span></div>
+
+            </div>
+            <nav class="navbar" id="navbar">
+                <ul class="">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#mentors">Mentors</a></li>
+                    <li><a href="#platform">Platform</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                </ul>
+
+            </nav>
+            <div class="buttons">
+
+                <button class="sign-up button" title="Sign Up" id="signIn"> Sign up</button>
+            </div>
+        </header>
+
+
+
+        <!-- Landing Page -->
+
+        <main class="main">
+
+
+            <section class="left-side">
+                <div class="content">
+                    <span> <i class="fa-solid fa-user-graduate"></i> Best E-Learning Platform</span>
+                    <h1>
+                        Online Study <br> Is Going to Enhance <br> Good Quality of Knowledge
+                    </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing <br> elit. Accusantium, impedit!</p>
+
+                    <div>
+                        <button class="joinbtn">Join Course</button>
+                        <button class="joinbtn">See how it works?</button>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <sectionc class="right-side">
+                <img src="img/3784896.jpg" alt="">
+            </sectionc>
+        </main>
+
+        <section class="counting-page">
+            <ul>
+                <li>
+                    <h1>15K+</h1>
+                    <h5>Success Stories</h5>
+                </li>
+                <li class="line"></li>
+                <li>
+                    <h1>301K+</h1>
+                    <h5>Expert Instrutor</h5>
+                </li>
+                <li class="line"></li>
+                <li>
+                    <h1>99K+</h1>
+                    <h5>Worldwide Students</h5>
+                </li>
+                <li class="line"></li>
+                <li>
+                    <h1>411K+</h1>
+                    <h5>Trendy Subjects</h5>
+                </li>
+            </ul>
+
+        </section>
+
+
+        <section class="courses" id="courses">
+            <div class="courses-start">
+                <h1>Our Popular Courses</h1>
+
+                <div class="filter-btn">
+                    <button class="btn filter-button active-btn" id="all">All categries</button>
+                    <button class="btn filter-button" id="web">Web Design </button>
+                    <button class="btn filter-button" id="ui">UI/UX Design</button>
+                    <button class="btn filter-button" id="coding">Coding</button>
+
+                </div>
+
+
+                <div class="course-list">
+                    <div class="card all web">
+                        <div><img src="img/web.jpg" alt=""></div>
+                        <span>Web Design</span>
+                        <h2>Become complete a web designer </h2>
+                        <div class="btn-enroll">
+                            <h3>$150.00</h3>
+                            <button>Enroll Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="card all ui">
+                        <div><img src="img/ux.jpg" alt=""></div>
+                        <span>UI/UX Design</span>
+                        <h2>Learn ui/ux design with more easy proces</h2>
+                        <div class="btn-enroll">
+                            <h3>$180.00</h3>
+                            <button>Enroll Now</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card all coding">
+                        <div><img src="img/code.jpg" alt=""></div>
+                        <span>Coding</span>
+                        <h2>Become a junior developer </h2>
+                        <div class="btn-enroll">
+                            <h3>$210.00</h3>
+                            <button>Enroll Now</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card all web">
+                        <div><img src="img/web1.jpg" alt=""></div>
+                        <span>Design</span>
+                        <h2>Become complete a web layout</h2>
+                        <div class="btn-enroll">
+                            <h3>$80.00</h3>
+                            <button>Enroll Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="see-more">
+                <button class="seemorebtn">See More <i class="fa-solid fa-chevron-down"></i> </button>
+
+            </div>
+        </section>
+
+
+
+        <section class="mentors" id="mentors">
+            <div class="mentor-content">
+                <div class="mentor-artical">Meet our highly skilled <br> Mentors</div>
+                <div class="mentor-artical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias praesentium provident porro dolore optio voluptas Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nobis! doloribus consequuntur aperiam excepturi
+                    earum.
+                </div>
+
+            </div>
+            <div class="mentor-cards">
+
+                <!-- mentor card 1 -->
+                <div class="mentor-card">
+                    <div><img src="img/mentorBoy1.jpg" alt=""></div>
+
+                    <h3>Pablo Joseph</h3>
+                    <span>ui/ux design mentor</span>
+                    <br>
+                    <br>
+                    <div>
+                        <h4><i class="fa-solid fa-play playIcon"></i>3 Courses</h4>
+                    </div>
+
+                </div>
+
+                <!-- mentor card 2 -->
+                <div class="mentor-card">
+                    <div><img src="img/mentor1.jpg" alt=""></div>
+
+                    <h3>Michele Jordon</h3>
+                    <span>Web design mentor</span>
+                    <br>
+                    <br>
+                    <div>
+                        <h4><i class="fa-solid fa-play playIcon"></i>6 Courses</h4>
+                    </div>
+
+                </div>
+
+                <!-- mentor card 3 -->
+                <div class="mentor-card">
+                    <div><img src="img/mentorGirl.jpg" alt=""></div>
+
+                    <h3>Aliester hugos </h3>
+                    <span>Software developer mentor</span>
+                    <br>
+                    <br>
+                    <div>
+                        <h4><i class="fa-solid fa-play playIcon"></i>1 Courses</h4>
+                    </div>
+
+                </div>
+
+                <!-- mentor card 4 -->
+                <div class="mentor-card">
+                    <div><img src="img/mentor2.jpg" alt=""></div>
+
+                    <h3>Philip Huge</h3>
+                    <span>Coding mentor</span>
+                    <br>
+                    <br>
+                    <div>
+                        <h4><i class="fa-solid fa-play playIcon"></i>3 Courses</h4>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="see-more">
+                <button class="seemorebtn">See More <i class="fa-solid fa-chevron-down"></i> </button>
+
+            </div>
+
+
+        </section>
+
+        <!-- platform page -->
+        <section class="platform" id="platform">
+
+            <div class="platform-box">
+                <div class="plat-box">
+                    <h1>
+                        Why People Choose Us <br> Over other platform
+                    </h1>
+                </div>
+                <div class="plat-box">
+                    <p>Students do not learn much just sitting in classes listening to teachers, memorizing prepackaged assignments, and spitting out answers. They must talk about what they are learning, write reflectively about it, relate it to past experiences,
+                        and apply it to their daily lives. They must make what they learn part of themselves.” - Arthur W. Chickering and Stephen C.</p>
+                </div>
+                <div class="plat-box">
+                    <div class="platfom-img">
+                        <img src="img/platform2.jpg" alt="">
+                    </div>
+                    <div class="platfom-img1">
+                        <img src="img/platform.jpg" alt="">
+                    </div>
+                </div>
+                <div class="plat-box">
+
+                    <!-- platform card 1 -->
+                    <div class="plat-card">
+                        <span><i class="ri-customer-service-line"></i></span>
+                        <h3>Best Support System</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolor.</p>
+                    </div>
+
+                    <div class="plat-card">
+                        <span><i class="ri-team-line"></i></span>
+                        <h3>Best Mentor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolor.</p>
+                    </div>
+
+
+                    <div class="plat-card">
+                        <span><i class="ri-book-3-line"></i></span>
+                        <h3>3000+ Courses</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolor.</p>
+                    </div>
+
+                    <div class="plat-card">
+                        <span><i class="ri-booklet-line"></i></span>
+                        <h3>Best Curriculum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolor.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <footer class="footer">
+
+            <div class="footer-menu">
+                <h2>Tech Learn</h2>
+                <br>
+                <p>
+                    maniratan786@gmail.com <br> +918210896981
+                </p>
+                <br>
+                <div class="social-icon">
+                    <span><i class="ri-facebook-line"></i></span>
+                    <span><i class="ri-instagram-line"></i></span>
+                    <span><i class="ri-twitter-line"></i></span>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li>About us</li>
+                    <li>Company</li>
+                    <li>Team</li>
+                    <li>Profile</li>
+                    <li>Career</li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li>Courses</li>
+                    <li>Design</li>
+                    <li>Development</li>
+                    <li>Marking</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="footer-menu" id="aboutUs">
+                <h2>Stay up to date</h2>
+                <br>
+                <h4>Become an instructor</h4>
+                <h4>Become a student</h4>
+
+                <br>
+
+                <span class="global-btn"><i class="ri-global-line"></i> English<i
+                        class="ri-arrow-down-s-line"></i></span>
+
+            </div>
+
+
+        </footer>
+
+
+
+
+    </div>
+
+
+
+    <script src="E-learning.js"></script>
+</body>
+
+</html>
